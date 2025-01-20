@@ -1,0 +1,62 @@
+/* Contact CSS */
+.animation {
+    margin-top: 30px;
+}
+#login{
+    padding:3rem 0;
+
+    .login_wrapper{
+        display:flex;
+        justify-content:space-between;
+        margin-top:4rem;
+        flex-wrap: wrap;
+
+        @media (max-width:992px){
+            justify-content: center;
+        }
+        @media (max-width:767px){
+            flex-direction: column;
+        }
+
+        .login_col{
+            width:calc(100% / 2 - 1rem);
+            padding:1rem;
+            box-sizing:border-box;
+
+            @media (max-width:992px){
+                width:50%
+            }
+            @media (max-width:767px){ 
+                width:100%;
+            }
+        }
+        .input_wrapper{
+            width:100%;
+            display: flex;
+
+            .form-control{
+                width:100%;
+                background-color:transparent;
+                border:.0714rem solid var(--white-color);
+                color:var(--white-color);
+                font-size:1.0714rem;
+                font-weight: 400;
+                padding: 1.2rem 1.4286rem;
+                border-radius: .5714rem;
+                margin-bottom:3rem;
+            }
+
+            .form-control:hover,
+            & textarea:hover,
+            .form-control:focus,
+            &{
+                border-color:var(--primary-color);
+                color:var(--white-color);
+            }
+        }
+        .btn_wrapper{
+            margin-top:2rem;
+        }
+         
+    }
+}
