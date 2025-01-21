@@ -20,11 +20,11 @@ export default function Login() {
                         <div className="login_col">
                             <h2>Login</h2>
                             <form>
-                                <div className="input_wrapper">
-                                    <input type="text" className="form-control" placeholder="Your Name..." autocomplete="off" />
+                            <div className="input_wrapper">
+                                    <input type="email" className="form-control" placeholder="Your Email..." autocomplete="off" />
                                 </div>
                                 <div className="input_wrapper">
-                                    <input type="email" className="form-control" placeholder="Your Email..." autocomplete="off" />
+                                    <input type="password" className="form-control" placeholder="Your Password..." autocomplete="off" />
                                 </div>
                                 <div className="btn_wrapper">
                                     <button type="submit" className="btn">
